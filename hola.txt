@@ -1,0 +1,28 @@
+package extras1;
+
+import java.util.Scanner;
+
+/*Crear una aplicación que nos permite insertar números hasta que insertemos un -1. 
+Calcular el numero de números introducidos.*/
+
+public class FinalFlat 
+{
+
+	public static void main(String[] args) 
+	{
+		Scanner entrada = new Scanner (System.in);
+		int numero = 0; 
+		int contador = 0;
+		
+		while (numero != -1)
+		{
+			System.out.println("Introduce un número: ");
+			numero = entrada.nextInt();	
+			contador++;
+		}
+		
+		System.out.println("Fin de programa se ha introducido "+ contador + " numeros.");
+		
+	}
+
+}
