@@ -24,5 +24,10 @@ public class FinalFlat
 		System.out.println("Fin de programa se ha introducido "+ contador + " numeros.");
 		
 	}
+	System.out.println("HOLA MUNDO");
+	System.out.println("HOLA MUNDO");
+	System.out.println("HOLA MUNDO");
+	System.out.println("HOLA MUNDO");
+	System.out.println("HOLA MUNDO");
 
 }
